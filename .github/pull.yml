@@ -1,5 +1,6 @@
 version: "1"
 rules:
   - base: master
-    upstream: wei:master
+    upstream: lxk0301:master
     mergeMethod: hardreset
+    mergeUnstable: true   
